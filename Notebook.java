@@ -30,7 +30,9 @@ public class Notebook {
     
     @Override
     public String toString() {
-        return "Notebook [name= " + name + ", operatingSystem= " + operatingSystem + 
-        ", ram= " + ram + ", hardDisk= " + hardDisk +  ", colour= " + colour + "]";
+        System.out.println();
+        return "\n" + "Notebook: (name = " + name + ", operatingSystem = " + operatingSystem + 
+        ", ram = " + ram + ", hardDisk = " + hardDisk +  ", colour = " + colour + ")";
+        
     } 
 }
